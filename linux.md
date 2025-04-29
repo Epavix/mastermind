@@ -12,6 +12,11 @@ utilisateur@machine:chemin_actuel$
 - `whoami` : Affiche le nom de l'utilisateur actuel.
 - `pwd` : Affiche le chemin complet du répertoire courant.
 - `ls` : Liste les fichiers et dossiers dans le répertoire courant.
+  - Options :
+    - `-a` : Affiche tous les fichiers, y compris les fichiers cachés.
+    - `-l` : Affiche les fichiers sous forme de liste détaillée.
+    - `-R` : Affiche les fichiers de manière récursive dans les sous-dossiers.
+    - `-t` : Trie les fichiers par date de modification.
 - `cd [chemin]` : Change de répertoire.
 
 ## Répertoires spéciaux
@@ -25,6 +30,6 @@ utilisateur@machine:chemin_actuel$
 - `mkdir [nom_dossier]` : Crée un nouveau dossier.
 - `touch [nom_fichier]` : Crée un fichier vide.
 - `rm nom_fichier` : Supprime un fichier.
-  - Option : `rm -r nom_dossier` pour supprimer un dossier et tous ses enfants.
+  - Option : `-r` pour supprimer un dossier et tous ses enfants.
 - `cp [source] [destination]` : Copie un fichier ou un dossier.
 - `mv [source] [destination]` : Déplace ou renomme un fichier ou un dossier.
